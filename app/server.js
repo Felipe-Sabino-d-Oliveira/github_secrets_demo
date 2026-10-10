@@ -1,7 +1,7 @@
 const mensagem = process.env.MENSAGEM_SECRETA;
 
 if (!mensagem) {
-    console.error("MENSAGEM_SECRETA não foi configurada.");
+    console.error("a MENSAGEM_SECRETA não foi configurada.");
     process.exit(1);
 }
 
